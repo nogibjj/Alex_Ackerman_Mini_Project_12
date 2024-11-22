@@ -8,7 +8,7 @@ build:
 
 # Run the Docker container
 run:
-	docker run -p 8000:8000 $(IMAGE_NAME)
+	docker run -p 8000:80 $(IMAGE_NAME)
 
 # Remove the Docker image
 clean:
